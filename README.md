@@ -2,7 +2,18 @@
 
 Teste de utilização da fakestoreapi para empresa Enjoei
 
-Realizado com a linguagem Python versão 3.9.19, com execução através do jupyter notebook.
+Realizado com a linguagem Python versão 3.9.19, com execução através do Jupyter Notebook.
+
+O código tem como objetivo:
+ - Realizar a conexão ao API da Fake Store API, ler seus dados de usuários, carrinho de compras dos usuários e produtos;
+ - Através dos processos de transformação e limpeza, adquirir os dados de ID do usuário, data de alteração mais recente do carrinho do usuário e definir qual a categoria de produtos que o usuário mais adiciona em seu carrinho.
+ - Armazenar estes dados em um arquivo csv, nomeado de "Result.CSV"
+
+O código retorna os seguintes campos:
+ - userId: Id do usuário, adquirido da tabela de cadastros dos usuários. Formato Int.
+ - category: Descrição da categoria do produto, adquirido da tabela de cadastros de produtos. Formato string.
+ - date: Última data em que o userId realizou uma alteração de seu carrinho, adquirido da tabela de carrinhos dos usuários. Originalmente seu formato era em datetime, porém devido ao horário padronizado de 00:00:00 foi alterado para date.
+ - quantity: Quantidade de produtos, da categoria mais comprada pelo cliente, que o cliente adicionou em seu carrinho na sua última atualização do carrinho.
 
 As libs utilizadas para esse projeto foram:
 
