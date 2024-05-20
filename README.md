@@ -1,11 +1,11 @@
 # TesteEnjoei
 
-Teste de utilização da fakestoreapi para empresa Enjoei
+Teste de utilização da Fake Store API para a empresa Enjoei
 
 Realizado com a linguagem Python versão 3.9.19, com execução através do Jupyter Notebook.
 
 O código tem como objetivo:
- - Realizar a conexão ao API da Fake Store API, ler seus dados de usuários, carrinho de compras dos usuários e produtos;
+ - Realizar a conexão ao API da Fake Store, ler seus dados de usuários, carrinho de compras dos usuários e produtos;
  - Através dos processos de transformação e limpeza, adquirir os dados de ID do usuário, data de alteração mais recente do carrinho do usuário e definir qual a categoria de produtos que o usuário mais adiciona em seu carrinho.
  - Armazenar estes dados em um arquivo csv, nomeado de "Result.CSV"
 
