@@ -1,6 +1,6 @@
 # TesteEnjoei
 
-Teste de utilização da Fake Store API para a empresa Enjoei
+Teste de utilização da Fake Store API (link da documentação para essa API: https://fakestoreapi.com/docs)  para a empresa Enjoei
 
 Realizado com a linguagem Python versão 3.9.19, com execução através do Jupyter Notebook.
 
